@@ -9,8 +9,9 @@ def twoSum(nums, target):
             left += 1
         else:
             right -= 1
-    return ()
+    return None
 
 
 mas = [3, 8, 9, 11, 16, 18, 19, 21]
 print (twoSum(mas, 25))
+
